@@ -3,7 +3,7 @@ parameters:
   vmImage: 'Ubuntu-18.04'
   py_maj: '3'
   py_min: '6'
-  conda_bld: '3.16.3'
+  conda_bld: '3.23'
 
 jobs:
 - job: ${{ parameters.name }}
